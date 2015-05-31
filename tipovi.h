@@ -1,7 +1,7 @@
 typedef struct cv{ 
 	
 	struct cv *gore, *dole, *levo, *desno;
-	int weight_up,weight_down,weight_right,weight_left;
+	int posecen;
 
 	int stepen_veze;
 	int vlasnik;
